@@ -1,0 +1,13 @@
+:root {
+  /* Fonts */
+  --primary-fonts: ;
+  --secondary-fonts: ;
+  /* Text color */
+  --primary-txt-cl: #303030;
+  --secondary-txt-cl: #555555;
+  --accent-tx-cl: #ff6c00;
+  /* BG color */
+  --primary-bg-cl: #191c26;
+  --accent-bg-cl: #ff6c00;
+  /* Others */
+}

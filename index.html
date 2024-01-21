@@ -4,39 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- Header section -->
-    <header>
-      <nav>
-        <a href="">
-          <img src="./images/header/logo.svg"" alt="Barbershop logo" width="67"
-          height="56">
-        </a>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Services and prices</a></li>
-          <li><a href="">Barbers</a></li>
-          <li><a href="">Contacts</a></li>
+    <!-- Header -->
+    <header class="header">
+      <a href="" class="header-logo">
+        <img class="header-logo-img" src="./images/header/logo.svg""
+        alt="Barbershop logo" width="67" height="56">
+      </a>
+      <nav clas="header-nav">
+        <ul class="header-list">
+          <li class="header-item"><a href="">About</a></li>
+          <li class="header-item"><a href="">Services and prices</a></li>
+          <li class="header-item"><a href="">Barbers</a></li>
+          <li class="header-item"><a href="">Contacts</a></li>
         </ul>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">Online-booking</button>
       </nav>
+
+      <a class="header-contact" href="tel:+380441111111">+38 044 111 11 11</a>
+      <button class="header-button" type="button">Online-booking</button>
     </header>
     <main>
       <!-- Hero  -->
-      <section>
-        <ul>
-          <li>
+      <section class="hero">
+        <ul class="hero-list">
+          <li class="hero-item">
             <a
+              class="hero-link"
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
               >Instagram</a
             >
           </li>
-          <li>
+          <li class="hero-item">
             <a
+              class="hero-link"
               href="https://www.youtube.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -44,22 +48,26 @@
             >
           </li>
         </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="uppertitle">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-descr">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
         <!-- slider pagination -->
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+        <ul class="slider-pagination">
+          <li class="slider-pagination-item"></li>
+          <li class="slider-pagination-item"></li>
+          <li class="slider-pagination-item"></li>
         </ul>
         <!-- slider controls -->
-        <ul>
-          <li><button type="button">Back</button></li>
-          <li><button type="button">Forward</button></li>
+        <ul class="slider-controls">
+          <li class="slider-controls-item">
+            <button class="slider-controls-btn" type="button">Back</button>
+          </li>
+          <li class="slider-controls-item">
+            <button class="slider-controls-btn" type="button">Forward</button>
+          </li>
         </ul>
       </section>
       <!-- About us -->
